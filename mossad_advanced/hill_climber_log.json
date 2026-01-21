@@ -1,0 +1,333 @@
+[
+  {
+    "generation": 0,
+    "type": "baseline",
+    "win_rate": 0.28,
+    "weights": {
+      "fear_factor": 0.5,
+      "evasion_value": 0.4,
+      "info_value": 0.2,
+      "greed_value": 0.1,
+      "combo_value": 0.3,
+      "favor_value": 0.15,
+      "nope_value": 0.05,
+      "hand_penalty": 0.02
+    }
+  },
+  {
+    "generation": 1,
+    "type": "improvement",
+    "strategy": "\ud83d\ude30 Paranoid",
+    "win_rate": 0.28,
+    "weights": {
+      "fear_factor": 0.85,
+      "evasion_value": 0.52,
+      "info_value": 0.2,
+      "greed_value": 0.05,
+      "combo_value": 0.3,
+      "favor_value": 0.15,
+      "nope_value": 0.07500000000000001,
+      "hand_penalty": 0.02
+    }
+  },
+  {
+    "generation": 2,
+    "type": "improvement",
+    "strategy": "\u2696\ufe0f Balanced",
+    "win_rate": 0.32,
+    "weights": {
+      "fear_factor": 0.7773025329155716,
+      "evasion_value": 0.5536824697015287,
+      "info_value": 0.22518124806474127,
+      "greed_value": 0.11498416297275917,
+      "combo_value": 0.38827320331022175,
+      "favor_value": 0.10997461193255642,
+      "nope_value": 0.018695728122720717,
+      "hand_penalty": 0.01
+    }
+  },
+  {
+    "generation": 3,
+    "type": "improvement",
+    "strategy": "\ud83d\ude30 Paranoid",
+    "win_rate": 0.32,
+    "weights": {
+      "fear_factor": 1.0,
+      "evasion_value": 0.7197872106119874,
+      "info_value": 0.22518124806474127,
+      "greed_value": 0.05749208148637958,
+      "combo_value": 0.38827320331022175,
+      "favor_value": 0.10997461193255642,
+      "nope_value": 0.028043592184081076,
+      "hand_penalty": 0.01
+    }
+  },
+  {
+    "generation": 4,
+    "type": "improvement",
+    "strategy": "\ud83d\udd25 Aggressive",
+    "win_rate": 0.32,
+    "weights": {
+      "fear_factor": 0.7,
+      "evasion_value": 0.6478084895507886,
+      "info_value": 0.22518124806474127,
+      "greed_value": 0.18623812222956937,
+      "combo_value": 0.5047551643032883,
+      "favor_value": 0.10997461193255642,
+      "nope_value": 0.028043592184081076,
+      "hand_penalty": 0.01
+    }
+  },
+  {
+    "generation": 5,
+    "type": "improvement",
+    "strategy": "\ud83d\ude30 Paranoid",
+    "win_rate": 0.26,
+    "weights": {
+      "fear_factor": 1.0,
+      "evasion_value": 0.8421510364160253,
+      "info_value": 0.22518124806474127,
+      "greed_value": 0.09311906111478468,
+      "combo_value": 0.5047551643032883,
+      "favor_value": 0.10997461193255642,
+      "nope_value": 0.042065388276121614,
+      "hand_penalty": 0.01
+    }
+  },
+  {
+    "generation": 6,
+    "type": "improvement",
+    "strategy": "\ud83d\udd25 Aggressive",
+    "win_rate": 0.34,
+    "weights": {
+      "fear_factor": 0.7,
+      "evasion_value": 0.7579359327744227,
+      "info_value": 0.22518124806474127,
+      "greed_value": 0.23967859167217703,
+      "combo_value": 0.6561817135942748,
+      "favor_value": 0.10997461193255642,
+      "nope_value": 0.042065388276121614,
+      "hand_penalty": 0.01
+    }
+  },
+  {
+    "generation": 7,
+    "type": "no_improvement",
+    "best_mutation": "\ud83d\ude30 Paranoid",
+    "mutation_rate": 0.26,
+    "current_rate": 0.36
+  },
+  {
+    "generation": 8,
+    "type": "improvement",
+    "strategy": "\ud83c\udccf Combo Master",
+    "win_rate": 0.36,
+    "weights": {
+      "fear_factor": 0.7,
+      "evasion_value": 0.7579359327744227,
+      "info_value": 0.22518124806474127,
+      "greed_value": 0.3355500283410478,
+      "combo_value": 1.0,
+      "favor_value": 0.14296699551232336,
+      "nope_value": 0.042065388276121614,
+      "hand_penalty": 0.01
+    }
+  },
+  {
+    "generation": 9,
+    "type": "improvement",
+    "strategy": "\ud83d\udd0d Analyst",
+    "win_rate": 0.3,
+    "weights": {
+      "fear_factor": 0.77,
+      "evasion_value": 0.7579359327744227,
+      "info_value": 0.5503624961294825,
+      "greed_value": 0.3355500283410478,
+      "combo_value": 1.0,
+      "favor_value": 0.14296699551232336,
+      "nope_value": 0.042065388276121614,
+      "hand_penalty": 0.01
+    }
+  },
+  {
+    "generation": 10,
+    "type": "improvement",
+    "strategy": "\ud83d\ude30 Paranoid",
+    "win_rate": 0.34,
+    "weights": {
+      "fear_factor": 1.0,
+      "evasion_value": 0.9853167126067496,
+      "info_value": 0.5503624961294825,
+      "greed_value": 0.1677750141705239,
+      "combo_value": 1.0,
+      "favor_value": 0.14296699551232336,
+      "nope_value": 0.06309808241418242,
+      "hand_penalty": 0.01
+    }
+  },
+  {
+    "generation": 11,
+    "type": "improvement",
+    "strategy": "\ud83d\udd25 Aggressive",
+    "win_rate": 0.28,
+    "weights": {
+      "fear_factor": 0.7,
+      "evasion_value": 0.8867850413460746,
+      "info_value": 0.5503624961294825,
+      "greed_value": 0.3516625212557859,
+      "combo_value": 1.0,
+      "favor_value": 0.14296699551232336,
+      "nope_value": 0.06309808241418242,
+      "hand_penalty": 0.01
+    }
+  },
+  {
+    "generation": 12,
+    "type": "improvement",
+    "strategy": "\ud83d\udee1\ufe0f Survivor",
+    "win_rate": 0.34,
+    "weights": {
+      "fear_factor": 0.9799999999999999,
+      "evasion_value": 1.0,
+      "info_value": 0.5503624961294825,
+      "greed_value": 0.3516625212557859,
+      "combo_value": 1.0,
+      "favor_value": 0.14296699551232336,
+      "nope_value": 0.06309808241418242,
+      "hand_penalty": 0.015
+    }
+  },
+  {
+    "generation": 13,
+    "type": "improvement",
+    "strategy": "\u2696\ufe0f Balanced",
+    "win_rate": 0.34,
+    "weights": {
+      "fear_factor": 0.9416073053781772,
+      "evasion_value": 1.0,
+      "info_value": 0.4817165365543023,
+      "greed_value": 0.29587253021478344,
+      "combo_value": 1.0,
+      "favor_value": 0.14205005801831128,
+      "nope_value": 0.05713648177162492,
+      "hand_penalty": 0.03813252324213991
+    }
+  },
+  {
+    "generation": 14,
+    "type": "no_improvement",
+    "best_mutation": "\ud83d\udd25 Aggressive",
+    "mutation_rate": 0.24,
+    "current_rate": 0.26
+  },
+  {
+    "generation": 15,
+    "type": "improvement",
+    "strategy": "\ud83d\udd0d Analyst",
+    "win_rate": 0.26,
+    "weights": {
+      "fear_factor": 1.0357680359159949,
+      "evasion_value": 1.0,
+      "info_value": 1.0,
+      "greed_value": 0.29587253021478344,
+      "combo_value": 1.0,
+      "favor_value": 0.14205005801831128,
+      "nope_value": 0.05713648177162492,
+      "hand_penalty": 0.03813252324213991
+    }
+  },
+  {
+    "generation": 16,
+    "type": "improvement",
+    "strategy": "\ud83d\udd25 Aggressive",
+    "win_rate": 0.3,
+    "weights": {
+      "fear_factor": 0.7250376251411964,
+      "evasion_value": 0.9,
+      "info_value": 1.0,
+      "greed_value": 0.5438087953221752,
+      "combo_value": 1.0,
+      "favor_value": 0.14205005801831128,
+      "nope_value": 0.05713648177162492,
+      "hand_penalty": 0.03813252324213991
+    }
+  },
+  {
+    "generation": 17,
+    "type": "improvement",
+    "strategy": "\u2696\ufe0f Balanced",
+    "win_rate": 0.32,
+    "weights": {
+      "fear_factor": 0.768720996493743,
+      "evasion_value": 0.963847649961401,
+      "info_value": 0.9238069672352599,
+      "greed_value": 0.5954113864352257,
+      "combo_value": 1.0,
+      "favor_value": 0.13643856506988714,
+      "nope_value": 0.10677096089049495,
+      "hand_penalty": 0.039933641657785166
+    }
+  },
+  {
+    "generation": 18,
+    "type": "improvement",
+    "strategy": "\ud83c\udccf Combo Master",
+    "win_rate": 0.28,
+    "weights": {
+      "fear_factor": 0.768720996493743,
+      "evasion_value": 0.963847649961401,
+      "info_value": 0.9238069672352599,
+      "greed_value": 0.833575941009316,
+      "combo_value": 1.0,
+      "favor_value": 0.1773701345908533,
+      "nope_value": 0.10677096089049495,
+      "hand_penalty": 0.039933641657785166
+    }
+  },
+  {
+    "generation": 19,
+    "type": "improvement",
+    "strategy": "\ud83d\udd25 Aggressive",
+    "win_rate": 0.3,
+    "weights": {
+      "fear_factor": 0.5381046975456201,
+      "evasion_value": 0.8674628849652609,
+      "info_value": 0.9238069672352599,
+      "greed_value": 1.0,
+      "combo_value": 1.0,
+      "favor_value": 0.1773701345908533,
+      "nope_value": 0.10677096089049495,
+      "hand_penalty": 0.039933641657785166
+    }
+  },
+  {
+    "generation": 20,
+    "type": "improvement",
+    "strategy": "\u2696\ufe0f Balanced",
+    "win_rate": 0.34,
+    "weights": {
+      "fear_factor": 0.5687709923879657,
+      "evasion_value": 0.8023352149379437,
+      "info_value": 0.8559008045811258,
+      "greed_value": 1.0,
+      "combo_value": 0.9396011534375814,
+      "favor_value": 0.2616600512038854,
+      "nope_value": 0.12989225412323033,
+      "hand_penalty": 0.022987716208815942
+    }
+  },
+  {
+    "type": "final",
+    "win_rate": 0.34,
+    "weights": {
+      "fear_factor": 0.5687709923879657,
+      "evasion_value": 0.8023352149379437,
+      "info_value": 0.8559008045811258,
+      "greed_value": 1.0,
+      "combo_value": 0.9396011534375814,
+      "favor_value": 0.2616600512038854,
+      "nope_value": 0.12989225412323033,
+      "hand_penalty": 0.022987716208815942
+    }
+  }
+]
