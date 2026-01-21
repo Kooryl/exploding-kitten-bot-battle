@@ -1,0 +1,170 @@
+[
+  {
+    "iteration": 0,
+    "win_rate": 0.19,
+    "avg_placement": 2.99,
+    "wins": 19,
+    "losses": 81,
+    "placement_distribution": {
+      "5": 20,
+      "2": 23,
+      "3": 18,
+      "1": 19,
+      "4": 20
+    },
+    "note": "Initial baseline",
+    "params": {
+      "crowd_panic_threshold": 1,
+      "duel_panic_threshold": 0,
+      "aggression_bias": 0.3,
+      "hoard_pairs": false,
+      "combo_priority": 1.5,
+      "skip_priority": 1.0
+    }
+  },
+  {
+    "iteration": 1,
+    "win_rate": 0.14,
+    "avg_placement": 3.14,
+    "wins": 14,
+    "losses": 86,
+    "placement_distribution": {
+      "4": 25,
+      "5": 21,
+      "2": 25,
+      "1": 14,
+      "3": 15
+    },
+    "analysis": {
+      "rate_early_death": 0.5348837209302325,
+      "rate_hoarding_death": 0.0,
+      "rate_starvation": 1.0,
+      "rate_late_death": 0.46511627906976744,
+      "total_losses": 86
+    },
+    "params": {
+      "crowd_panic_threshold": 1,
+      "duel_panic_threshold": 0,
+      "aggression_bias": 0.3,
+      "hoard_pairs": false,
+      "combo_priority": 1.5,
+      "skip_priority": 1.0
+    }
+  },
+  {
+    "iteration": 2,
+    "win_rate": 0.22,
+    "avg_placement": 2.81,
+    "wins": 22,
+    "losses": 78,
+    "placement_distribution": {
+      "4": 19,
+      "1": 22,
+      "2": 22,
+      "5": 14,
+      "3": 23
+    },
+    "analysis": {
+      "rate_early_death": 0.4230769230769231,
+      "rate_hoarding_death": 0.0,
+      "rate_starvation": 1.0,
+      "rate_late_death": 0.5769230769230769,
+      "total_losses": 78
+    },
+    "params": {
+      "crowd_panic_threshold": 3,
+      "duel_panic_threshold": 1,
+      "aggression_bias": 0.3,
+      "hoard_pairs": false,
+      "combo_priority": 1.7999999999999998,
+      "skip_priority": 1.0
+    }
+  },
+  {
+    "iteration": 3,
+    "win_rate": 0.23,
+    "avg_placement": 2.8,
+    "wins": 23,
+    "losses": 77,
+    "placement_distribution": {
+      "5": 12,
+      "3": 23,
+      "1": 23,
+      "4": 22,
+      "2": 20
+    },
+    "analysis": {
+      "rate_early_death": 0.44155844155844154,
+      "rate_hoarding_death": 0.0,
+      "rate_starvation": 1.0,
+      "rate_late_death": 0.5584415584415584,
+      "total_losses": 77
+    },
+    "params": {
+      "crowd_panic_threshold": 3,
+      "duel_panic_threshold": 2,
+      "aggression_bias": 0.3,
+      "hoard_pairs": false,
+      "combo_priority": 2.1599999999999997,
+      "skip_priority": 1.0
+    }
+  },
+  {
+    "iteration": 4,
+    "win_rate": 0.23,
+    "avg_placement": 2.7,
+    "wins": 23,
+    "losses": 77,
+    "placement_distribution": {
+      "3": 26,
+      "1": 23,
+      "2": 21,
+      "4": 23,
+      "5": 7
+    },
+    "analysis": {
+      "rate_early_death": 0.38961038961038963,
+      "rate_hoarding_death": 0.0,
+      "rate_starvation": 1.0,
+      "rate_late_death": 0.6103896103896104,
+      "total_losses": 77
+    },
+    "params": {
+      "crowd_panic_threshold": 3,
+      "duel_panic_threshold": 2,
+      "aggression_bias": 0.3,
+      "hoard_pairs": false,
+      "combo_priority": 2.5,
+      "skip_priority": 1.0
+    }
+  },
+  {
+    "iteration": 5,
+    "win_rate": 0.08,
+    "avg_placement": 3.15,
+    "wins": 8,
+    "losses": 92,
+    "placement_distribution": {
+      "4": 27,
+      "2": 26,
+      "1": 8,
+      "5": 15,
+      "3": 24
+    },
+    "analysis": {
+      "rate_early_death": 0.45652173913043476,
+      "rate_hoarding_death": 0.0,
+      "rate_starvation": 1.0,
+      "rate_late_death": 0.5434782608695652,
+      "total_losses": 92
+    },
+    "params": {
+      "crowd_panic_threshold": 3,
+      "duel_panic_threshold": 2,
+      "aggression_bias": 0.3,
+      "hoard_pairs": false,
+      "combo_priority": 2.5,
+      "skip_priority": 1.0
+    }
+  }
+]
