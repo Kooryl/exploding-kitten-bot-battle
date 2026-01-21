@@ -190,7 +190,6 @@ class MossadBotAdvanced(Bot):
             self._draws += 1
     
     def react(self, view: BotView, event: GameEvent) -> Action | None:
-        """Nope attacks, combos, and favors targeting us (like MossadBot)."""
         nope = self._cards(view.my_hand, "NopeCard")
         if not nope:
             return None
@@ -198,16 +197,11 @@ class MossadBotAdvanced(Bot):
         d = event.data or {}
         t = event.event_type
         
-        # Nope combos targeting us
         if t == EventType.COMBO_PLAYED and d.get("target_player_id") == view.my_id:
             return PlayCardAction(card=nope[0])
-        
-        # Nope favors targeting us
         if t == EventType.FAVOR_REQUESTED and d.get("target_player_id") == view.my_id:
             return PlayCardAction(card=nope[0])
-        
-        # Nope ALL attacks (like MossadBot does)
-        if d.get("card_type") == "AttackCard":
+        if d.get("card_type") == "AttackCard" and self._defuse(view.my_hand) == 0:
             return PlayCardAction(card=nope[0])
         
         return None

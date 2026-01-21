@@ -1,0 +1,23 @@
+[
+  {
+    "timestamp": "2026-01-21T17:56:03.943420",
+    "v6_win_rate": 30.8,
+    "v7_win_rate": 26.6,
+    "difference": -4.199999999999999,
+    "decision": "rollback_v6"
+  },
+  {
+    "timestamp": "2026-01-21T17:58:14.093895",
+    "v6_win_rate": 29.4,
+    "v7_win_rate": 28.4,
+    "difference": -1.0,
+    "decision": "rollback_v6"
+  },
+  {
+    "timestamp": "2026-01-21T18:00:07.777300",
+    "v6_win_rate": 34.6,
+    "v7_win_rate": 31.6,
+    "difference": -3.0,
+    "decision": "rollback_v6"
+  }
+]
