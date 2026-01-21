@@ -1,5 +1,5 @@
 """
-Auto-Optimized Bot for 5-Player Battle Royale (Iteration 6)
+Auto-Optimized Bot for 5-Player Battle Royale (Iteration 21)
 Parameters: {'crowd_panic_threshold': 3, 'duel_panic_threshold': 2, 'aggression_bias': 0.3, 'hoard_pairs': False, 'combo_priority': 2.5, 'skip_priority': 1.0}
 """
 

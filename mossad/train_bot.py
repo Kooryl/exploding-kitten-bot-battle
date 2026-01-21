@@ -6,11 +6,17 @@ Trains mossad_bot.py to achieve target win rate in 1v4 battle royale format.
 
 import argparse
 import json
+import sys
 from pathlib import Path
 
-from code_generator import CodeGenerator
-from pattern_analyzer import PatternAnalyzer
-from test_runner import TestRunner
+# Add parent directory to path for imports
+parent_dir = Path(__file__).parent.parent
+sys.path.insert(0, str(parent_dir))
+
+# Import from mossad package
+from mossad.code_generator import CodeGenerator
+from mossad.pattern_analyzer import PatternAnalyzer
+from mossad.test_runner import TestRunner
 
 
 def main() -> None:

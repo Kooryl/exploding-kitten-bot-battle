@@ -17,7 +17,8 @@ class TestRunner:
     def __init__(self, games_to_run: int = 100) -> None:
         """Initialize test runner."""
         self.games_to_run = games_to_run
-        self.deck_config = Path("configs/default_deck.json")
+        # Path relative to project root
+        self.deck_config = Path(__file__).parent.parent / "configs" / "default_deck.json"
     
     def run_single_game(self, game_id: int) -> dict[str, Any]:
         """Run a single 5-player game: 1 MossadBot vs 4 RandomBots."""
@@ -34,8 +35,10 @@ class TestRunner:
             del sys.modules[key]
         
         loader = BotLoader()
-        hero_bot = loader.load_from_file(Path("bots/mossad_bot.py"))[0]
-        random_bot_class = loader.load_from_file(Path("bots/random_bot.py"))[0]
+        # Paths relative to project root
+        project_root = Path(__file__).parent.parent
+        hero_bot = loader.load_from_file(project_root / "bots" / "mossad_bot.py")[0]
+        random_bot_class = loader.load_from_file(project_root / "bots" / "random_bot.py")[0]
         
         hero_base_name = hero_bot.name
         

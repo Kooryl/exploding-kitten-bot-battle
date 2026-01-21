@@ -22,7 +22,8 @@ class CodeGenerator:
             "skip_priority": 1.0,        # Priority multiplier for Skip cards
         }
         self.iteration_count = 0
-        self.bot_file = Path("bots/mossad_bot.py")
+        # Path relative to project root
+        self.bot_file = Path(__file__).parent.parent / "bots" / "mossad_bot.py"
     
     def generate_improvements(
         self, analysis: dict[str, Any], win_rate: float
